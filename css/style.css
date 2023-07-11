@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body {
+    height: 100%;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.wrapper{
+    width: 60rem;
+    height: 60rem;
+    border: 0.5rem  solid  black;
+    color: black;
+    color:yellow;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image:linear-gradient(rgba(0,0,0, .5), rgba(0,0,0, .5)),
+                      url(https://picsum.photos/id/48/200),
+                      url(https://picsum.photos/id/49/200),
+                      url(https://picsum.photos/id/50/200),
+                      url(https://picsum.photos/id/54/200),
+                      url(https://picsum.photos/id/55/200),
+                      url(https://picsum.photos/id/56/200),
+                      url(https://picsum.photos/id/57/200),
+                      url(https://picsum.photos/id/58/200),
+                      url(https://picsum.photos/id/59/200);
+    background-position: left top, top center,  top right,
+                            left center, center center, right center,
+                            left bottom, bottom center, right bottom;
+    background-image: 
+    background-position: top center;
+    background-repeat: no-repeat;
+
+}
+.title{
+    font-weight: 600;
+    font-size: 4rem;
+}
+.text{
+    font-weight: 500;
+    font-size: 2.9rem;   
+}
